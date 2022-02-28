@@ -1,0 +1,348 @@
+/*################ CABECALHO /*################ */
+.cabecalho{
+   width: 90%;
+   margin: 2% auto;
+}
+
+.cabecalho .container{
+   display: flex;
+   justify-content: space-around;
+}
+
+.logo-fatec::before{
+   content: 'cotia';
+}
+
+
+
+
+/*################ MENU /*################ */
+.barra-menu{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #283337;
+   color: #c0cdd1;
+   font-family: Verdana;
+   height: 50px;
+   border-bottom: 5px solid #c21d16;
+   font-size: 13px;
+}
+
+.area-exclusiva-nav img{
+   vertical-align: middle;
+}
+
+.menu-lista{
+   display: flex;
+   list-style: none;
+   width: 40%;
+   justify-content: space-between;
+}
+
+.menu-lista li{
+   padding: 18px;
+}
+
+.area-exclusiva-nav{
+   padding: 16px;
+}
+
+.menu-lista li:hover, .area-exclusiva-nav:hover{
+   color: #ffffff;
+   cursor: pointer;
+   transition: 250ms;
+   background-color: #1F282B;
+}
+
+.sticky{
+   position: sticky;
+   width: 100%;
+   top: 0;
+}
+
+
+
+
+
+
+/*################ CARROSEL /*################ */
+.carrosel{
+   width: 70%;
+   margin: 2% auto;
+}
+
+.carrosel img{
+   width: 920px;
+   height: 500px;
+}
+
+.linha{
+   margin-top: 3%;
+   border-top: 1px solid #dde4e7;
+}
+
+
+
+
+
+/*################ CURSOS /*################ */
+.cursos{
+   width: 65%;
+   margin: 0 auto;
+}
+
+.titulo-P-cursos{
+   font-size: 46px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   color: #283337;
+   line-height: 1.9em;
+}
+
+.subtitulo-cursos{
+   font-family: Verdana, Tahoma, sans-serif;
+   font-size: 14px;
+   color: #4d6269;
+}
+
+.cursos .container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 2%;
+}
+.card-cursos{
+   width: 50%;
+   text-align: center;
+   margin-bottom: 5%;
+}
+
+.img-card{
+   width: 60px;
+   height: 60px;
+   padding-bottom: 5%;
+}
+
+.titulo-card{
+   color: #424242;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   padding-bottom: 5%;
+}
+
+.subtitulo-cursos{
+   font-size: 14px;
+   font-family: Verdana, Tahoma, sans-serif;
+   color: #666666;
+   padding-bottom: 5%;
+   line-height: 1.5em;
+}
+
+
+
+
+/*################ NOTICIAS /*################ */
+
+.noticias{
+   width: 75%;
+   margin: 0 auto;
+}
+
+.noticias .container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.card-noticias{
+   width: 50%;
+   text-align: center;
+   margin-bottom: 5%;
+}
+
+.img-card-noticias{
+   width: 440px;
+   height: 200px;
+}
+
+.titulo-P-noticias{
+   font-size: 46px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   color: #283337;
+   line-height: 1.9em;
+}
+
+.titulo-card-noticias{
+   color: #666666;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   padding-bottom: 5%;
+}
+
+.subtitulo-noticias{
+   font-size: 14px;
+   font-family: Verdana, Tahoma, sans-serif;
+   color: #666666;
+   line-height: 1.5em;
+}
+
+
+
+
+
+/*################ CALENDARIO /*################ */
+.calendario{
+   width: 75%;
+   margin: 0 auto 5%;
+}
+
+.titulo-P-calendario{
+   font-size: 46px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   color: #283337;
+   line-height: 1.9em;
+}
+
+.subtitulo-calendario{
+   font-size: 14px;
+   font-family: Verdana, Tahoma, sans-serif;
+   color: #666666;
+   line-height: 1.5em;
+}
+
+
+
+
+
+/*################ RODAPE /*################ */
+
+.rodape{
+   background-color: #283337;
+   color: #ffffff;
+   font-family: verdana ,sans-serif;
+   border-top: 5px solid #c21d16;
+   height: 340px;
+}
+
+.rodape .container{
+   display: flex;
+   justify-content: space-around;
+   width: 90%;
+   height: auto;
+   margin: 0 auto;
+}
+
+
+
+
+/*************** ENDEREÇO /*************** */
+.endereco{
+   width: 15%;
+}
+
+.titulo-endereco, .titulo-contato,
+.titulo-social{
+   font-size: 25px;
+   color: #d42018;
+   font-weight: 500;
+   font-family: 'roboto', sans-serif;
+   line-height: 3.0em;
+}
+
+.texto-endereco{
+   font-size: 12px;
+   color: #688590;
+   line-height: 1.5em;
+}
+
+.texto-endereco .mapa{
+   margin-top: 10%
+}
+
+.texto-endereco .mapa a{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.texto-endereco .mapa a:hover{
+   text-decoration: underline;
+}
+
+
+
+
+/********** CONTATO /********** */
+.texto-contato{
+   color: #688590;
+   font-size: 21px;
+}
+
+.email{
+   margin-top: 10%;
+   font-size: 12px;
+}
+
+.email a{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.email a:hover{
+   text-decoration: underline;
+}
+
+
+
+/********** SOCIAL /********** */
+.social{
+   display: flex; 
+   flex-direction: column;
+   width: 25%;
+}
+
+.links{
+   display: flex;
+   justify-content: space-between;
+}
+
+.link-social{
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 12px;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.link-social:hover{
+   background-color: #1a2124;
+   transition: 250ms;
+}
+
+.icon{
+   width: 16px;
+   vertical-align: -20%;
+}
+
+.linha-rodape{
+   margin-top: 5%;
+   width: 82%;
+}
+
+.rodape-final{
+   text-align: center;
+   margin-top: 1%;
+   font-family: Verdana, sans-serif;
+   font-size: 12px;
+   color: #688590;
+   line-height: 2.3em;
+}
+
+.rodape-final a{
+   text-decoration: none;
+   color: #ffffff;
+}
