@@ -1,0 +1,79 @@
+@media (max-width:425px) {
+   .cabecalho {
+      display: none;
+   }
+   
+   .barra-menu{
+      flex-direction: column;
+      height: auto;
+      align-items: flex-start;
+   }
+
+   .menu-lista{
+      flex-direction: column;
+   }
+
+  .carrosel{
+      width: 95%;
+   }
+
+   .carrosel img{
+      width: 100%;
+   } 
+   
+   .sticky{
+      position: initial;
+   }
+
+   
+
+   /* ############################# */
+   .cursos{
+      width: 95%;
+   }
+
+   .cursos .container{
+      flex-direction: column;
+   }
+
+   .card-cursos{
+      width: 100%;
+   }
+
+   .noticias{
+      width: 95%;
+      margin-top: 20%;
+   }
+   
+   .noticias .container{
+      flex-direction: column;
+      width: 100%;
+   }
+
+   .card-noticias{
+      width: 100%;
+   }
+
+   .img-card-noticias{
+      width: 100%;
+   }
+
+
+
+
+
+   /* ############################# */
+
+   .rodape{
+      height: auto;
+   }
+
+   .rodape .container{
+      flex-direction: column;
+   }
+   .endereco{
+      width: 100%;
+   }
+
+
+}
