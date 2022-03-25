@@ -66,13 +66,31 @@
 
 
 
-/*################ CARROSEL /*################ */
+/*################ CARROSEL ################ */
 .carrosel{
-   width: 70%;
+   width: 100%;
    margin: 2% auto;
 }
 
-.carrosel img{
+.carrosel .container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
+
+.bt_proximo, .bt_anterior {
+   background-color: inherit;
+   border: none;
+}
+
+.bt_proximo:hover , .bt_anterior:hover {
+   color: #c21d16 ;
+   cursor: pointer;
+   transition: 250ms;
+}
+
+.img_carrosel{
    width: 920px;
    height: 500px;
 }
