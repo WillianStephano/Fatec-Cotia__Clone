@@ -6,6 +6,10 @@
   Projeto criado com o intuito de aprimorar meus conhecimentos nas tecnologias HTML, CSS e JS.
 </h4>
 
+<h5 align="center">
+  Projeto concluido ✔
+</h5>
+
 ## 📚 Seções
 O projeto é composto por uma pagina que contem 4 seções:
 
