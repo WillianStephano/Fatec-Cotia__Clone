@@ -12,14 +12,33 @@ function myFunction() {
    }
 }
 
-/* Carrosel */
 
+
+
+
+/* Toggle Menu */
+const btToggle = document.querySelector('.bt-toggle')
+const menuNav = document.querySelector('.menu-lista')
+const menunav2 = document.querySelector('.area-exclusiva-nav')
+
+btToggle.addEventListener('click', function () {
+   menuNav.classList.toggle('menu-ativo')
+   menunav2.classList.toggle('menu-ativo')
+   
+})
+
+
+
+
+
+
+/* Carrosel */
 //Selecionando elementos do HTML
 const imgCarrosel = document.querySelector('.img_carrosel')
 const btProximo = document.querySelector('.bt_proximo')
 const btAnterior = document.querySelector('.bt_anterior')
 
-//Arrey com imagens 
+//Objeto com imagens 
 const colecaoImg =[
    {
       id: 1,

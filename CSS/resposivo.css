@@ -11,6 +11,11 @@
    
    .menu-lista{
       flex-direction: column;
+      display: none;
+   }
+   
+   .menu-lista.menu-ativo{
+      display: block;
    }
    
    .carrosel{
@@ -26,14 +31,24 @@
       width: 100%;
    }
    
-   
-   
    .sticky{
       position: initial;
    }
    
    .fa-3x{
       font-size: 2em;
+   }
+   
+   .cabecalho-mobile{
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+      font-size: 20px;
+      padding: 2%;
+   }
+
+   .area-exclusiva-nav{
+      display: none;
    }
    
    /* ############################# */
