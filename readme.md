@@ -2,13 +2,14 @@
   <br>Pagina inicial Fatec de Cotia - Clone
 </h1>
 
+<p align="center">
+  <a href="https://willianstephano.github.io/Fatec-Cotia__Clone/">
+    <b>🚀Acesse o projeto 🚀</b>
+  </a>
+
 <h4 align="center">
   Projeto criado com o intuito de aprimorar meus conhecimentos nas tecnologias HTML, CSS e JS.
 </h4>
-
-<h5 align="center">
-  Projeto concluido ✔
-</h5>
 
 ## 📚 Seções
 O projeto é composto por uma pagina que contem 4 seções:
